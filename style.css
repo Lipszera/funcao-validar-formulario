@@ -1,0 +1,72 @@
+:root {
+  --primary-color: #fd951f;
+  --bg-color: #130f0d;
+  --text-color: #f0f0f5;
+  --light-color: rgba(255, 255, 255, 0.04);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #130f0d;
+  color: #f0f0f5;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.03);
+
+  width: 100%;
+  max-width: 500px;
+
+  margin: 32px auto;
+  padding: 32px 64px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+form h2 {
+  margin-bottom: 32px;
+}
+
+input,
+button {
+ 
+  /* box */
+  width: 100%;
+
+  padding: 16px 0;
+
+  border:none;
+  border-bottom: 1px solid var(--primary-color);
+
+  background-color: transparent;
+
+  outline: none;
+
+  /* text */
+  color: var(--text-color);
+  font-size: 1em;
+
+}
+
+button {
+  margin-top: 16px;
+  background-color: var(--primary-color);
+}
+
+
